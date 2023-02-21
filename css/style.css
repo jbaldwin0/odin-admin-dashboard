@@ -1,9 +1,11 @@
 
 body {
     display: grid;
-    grid-template-columns: 8fr, 1fr;
+    grid-template-columns: auto 8fr, 1fr 8fr;
     grid-auto-rows: auto;
     border: 1px solid black;
+    min-height: 100vh;
+    margin: 0;
 }
 
 header {
@@ -22,12 +24,20 @@ nav {
 
 ul {
     list-style-type: none;
+    padding-inline-start: 0.5em;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 main {
     background-color: lightsalmon;
     display: grid;
-    grid-template-columns: 3fr, 1fr;
+    grid-template-columns: 2, 2fr;
+    grid-template-rows: 2, 2fr;
     grid-column: 2 / 6;
     grid-row: 3 / 8;
 }
@@ -42,6 +52,12 @@ main {
     border-radius: 4px;
     display: grid;
     grid-template: 1fr auto 1rem 1fr;
+    margin: 0.5em;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
 }
 
 .right-sidebar {
