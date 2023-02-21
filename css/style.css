@@ -15,11 +15,19 @@ header {
     display: grid;
 }
 
+.search-bar {
+    border-radius: 32px;
+    height: 2em;
+    width: 50vw;
+    margin: 0.5em;
+}
+
 nav {
     background-color: lightseagreen;
     color: antiquewhite;
     grid-column: 1 / 2;
     grid-row: 1 / 8;
+    padding: 0.5em;
 }
 
 ul {
@@ -28,6 +36,12 @@ ul {
 }
 
 nav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.dashboard {
     display: flex;
     align-items: center;
     justify-content: left;
