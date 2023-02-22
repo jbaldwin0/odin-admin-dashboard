@@ -37,6 +37,8 @@ header {
     color: var(--white);
     border-radius: 16px;
     box-shadow: none;
+    height: 2em;
+    width: 6em;
 }
 
 .header-flex {
@@ -108,8 +110,9 @@ main {
 
 .content-grid {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(3, 2fr);
     justify-items: center;
+    gap: 0;
 }
 
 .right-sidebar {
