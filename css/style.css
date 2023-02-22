@@ -43,7 +43,6 @@ header {
     margin-inline: 1em;
 }
 
-
 .header-flex {
     display: flex;
     justify-content: space-between;
@@ -112,6 +111,15 @@ main {
     background-color: var(--white);
     border-radius: 32px;
     margin-right: 0.5em;
+    margin-left: 1em;
+}
+
+.svg-user-small {
+    height: 30px;
+    width: 30px;
+    margin-right: 1em;
+    background-color: var(--white);
+    border-radius: 32px;
 }
 
 .project {
@@ -125,6 +133,10 @@ main {
     background-color: var(--blue);
     box-shadow: 2px 2px 5px rgba(0,0,0,.8);
     color: var(--white);
+}
+
+.main-header {
+    margin-left: 1em;
 }
 
 .project-svg {
@@ -183,6 +195,7 @@ main {
     padding: 0.4em;
     max-width: 280px;
     box-shadow: 2px 2px 5px rgba(0,0,0,.8);
+    display: grid;
 }
 
 .trending-flex {
