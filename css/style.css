@@ -79,6 +79,7 @@ main {
 .svg {
     height: 30px;
     width: 30px;
+    padding-right: 1em;
 }
 
 .project {
@@ -90,6 +91,11 @@ main {
     margin: 0.5em;
     max-width: 280px;
     background-color: var(--aqua);
+}
+
+.project-svg {
+    display: flex;
+    justify-content: right;
 }
 
 .project h3 {
